@@ -42,7 +42,7 @@ class InfluxdbMetricsPlugin extends StudipPlugin implements MetricsPlugin
             }
             fwrite($fp, json_encode(array(array(
                 'name' => $stat,
-                'columns' => ['value','timestamp'],
+                'columns' => array('value','timestamp'),
                 'points' => array(array($data, time())),
             ))));
             fclose($fp);
