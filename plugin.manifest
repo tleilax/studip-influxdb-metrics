@@ -1,0 +1,6 @@
+pluginname=InfluxdbMetrics
+pluginclassname=InfluxdbMetrics
+#pluginclassname=StatsdMetricsPlugin
+origin=UOL
+version=1.0
+studipMinVersion=3.1
